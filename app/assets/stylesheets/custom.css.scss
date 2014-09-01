@@ -2,7 +2,7 @@ $lightGray: #999;
 
 body {
   padding-top: 80px;
-  padding-bottom: 20px;
+  padding-bottom: 20px !important;
   font-family: Arial,Helvetica,sans-serif;
 }
 
@@ -13,7 +13,14 @@ body {
 }
 /* universal */
 .navbar-inverse .navbar-nav > li > a {
-    color: #e86435;
+    color: #e86435 !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgb(51,51,51) !important;
+    background-color: #e86435;
+}
+.navbar-inverse .navbar-nav > li:hover {
+    background-color: #e86435;
 }
 
 html {
@@ -86,11 +93,11 @@ p {
   }
 }
 .navbar-inverse {
-    background-color: rgb(51, 51, 51);
-    border-color: #e86435;
+    background-color: rgb(51, 51, 51) !important;
+    border-color: #e86435 !important;
 }
 .navbar-inverse .navbar-offcanvas {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51) !important;
 }
 .navbar-inverse .navbar-offcanvas {
 border: 0px;
@@ -100,9 +107,9 @@ border: 0px;
 .navbar-nav li {
 }
 h1.three-em {
-  font-size: 20em;
-  font-size: 15vw;
-  color: #e86435;
+  font-size: 20em !important;
+  font-size: 15vw !important;
+  color: #e86435 !important;
 }
 h2.three-em {
   color: #e86435;
@@ -254,8 +261,13 @@ input, textarea {
   border: 1px solid #e86435 !important;
   color: #e86435 !important;
 }
+.orange-text {
+  color: #e86435 !important;
+}
 label {
   color: #e86435;
+  padding-top: 10px;
+  padding-bottom: 2px;
 }
 .btn-primary {
   background-color: #e86435;
@@ -267,4 +279,10 @@ label {
     background-color: rgb(51,51,51);
     border-color: #e86435;
 }
-
+.remove-border {
+  border: 0px solid #ffffff !important;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}

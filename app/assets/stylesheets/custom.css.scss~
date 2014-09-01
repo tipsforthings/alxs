@@ -132,7 +132,6 @@ font-family: 'Droid Sans',Arial,serif;
 }
 .droid {
   font-family: 'Droid Sans',Arial,serif;
-  text-transform: uppercase;
 }
 .top-ten {
   padding-top: 10px !important;
@@ -255,8 +254,12 @@ input, textarea {
   border: 1px solid #e86435 !important;
   color: #e86435 !important;
 }
+.orange-text {
+  color: #e86435 !important;
+}
 label {
   color: #e86435;
+  padding: 10px;
 }
 .btn-primary {
   background-color: #e86435;
@@ -268,4 +271,10 @@ label {
     background-color: rgb(51,51,51);
     border-color: #e86435;
 }
-
+.remove-border {
+  border: 0px solid #ffffff !important;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}

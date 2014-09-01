@@ -6,17 +6,17 @@
 
     <div class="col-md-4">
 <div>
-        <h2 class="frontpage">Design.</h2>
+        <h2 class="frontpage">Design</h2>
 </div>
     </div>
     <div class="col-md-4">
 <div>
-        <h2 class="frontpage">Build.</h2>
+        <h2 class="frontpage">Build</h2>
 </div>
     </div>
     <div class="col-md-4">
 <div>
-        <h2 class="frontpage">Deploy.</h2>
+        <h2 class="frontpage">Deploy</h2>
 </div>
     </div>
 </div>
