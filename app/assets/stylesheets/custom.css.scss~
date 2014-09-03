@@ -2,7 +2,7 @@ $lightGray: #999;
 
 body {
   padding-top: 80px;
-  padding-bottom: 20px !important;
+  padding-bottom: 20px;
   font-family: Arial,Helvetica,sans-serif;
 }
 
@@ -13,14 +13,7 @@ body {
 }
 /* universal */
 .navbar-inverse .navbar-nav > li > a {
-    color: #e86435 !important;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: rgb(51,51,51) !important;
-    background-color: #e86435;
-}
-.navbar-inverse .navbar-nav > li:hover {
-    background-color: #e86435;
+    color: #e86435;
 }
 
 html {
@@ -69,9 +62,7 @@ h1 {
   text-align: center;
 }
 
-.contact-button {
-  margin-bottom: 25px;
-}
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -95,11 +86,11 @@ p {
   }
 }
 .navbar-inverse {
-    background-color: rgb(51, 51, 51) !important;
-    border-color: #e86435 !important;
+    background-color: rgb(51, 51, 51);
+    border-color: #e86435;
 }
 .navbar-inverse .navbar-offcanvas {
-    background-color: rgb(51, 51, 51) !important;
+    background-color: rgb(51, 51, 51);
 }
 .navbar-inverse .navbar-offcanvas {
 border: 0px;
@@ -109,9 +100,9 @@ border: 0px;
 .navbar-nav li {
 }
 h1.three-em {
-  font-size: 20em !important;
-  font-size: 15vw !important;
-  color: #e86435 !important;
+  font-size: 20em;
+  font-size: 15vw;
+  color: #e86435;
 }
 h2.three-em {
   color: #e86435;
@@ -201,12 +192,11 @@ h4 {
   padding: 10px;
   font-size: 3em;
   font-size: 3vw;
-  color: rgba(51, 51, 51, 1.0);
-  border: 1px solid rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 1.0);
+  border: 1px solid #e86435;
   border-radius: 6px;
-  background-color: #e86435;
+  color: #e86435;
   text-align: center;
-  margin-top: 50px;
 }
 [class*="col-"] {
   height: 90%;
@@ -269,8 +259,7 @@ input, textarea {
 }
 label {
   color: #e86435;
-  padding-top: 10px;
-  padding-bottom: 2px;
+  padding: 10px;
 }
 .btn-primary {
   background-color: #e86435;
