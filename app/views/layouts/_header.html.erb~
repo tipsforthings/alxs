@@ -1,0 +1,16 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="author" href="https://plus.google.com/u/0/116471654573031381012/about"/>
+<title><%= full_title(yield(:title)) %></title>
+<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
+<%= render 'layouts/shim' %>
+<link href="/assets/sticky-footer.css" rel="stylesheet">
+<link href="/assets/custom.css" rel="stylesheet">
+ <%= javascript_include_tag :modernizr %>
+ </head>
+
